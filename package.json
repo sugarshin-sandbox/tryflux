@@ -1,0 +1,24 @@
+{
+  "name": "tryflux",
+  "version": "0.0.1",
+  "description": "try flux",
+  "scripts": {
+    "start": "budo main.cjsx:main.js -v --live -- -t coffee-reactify  --extension='.cjsx' --extension='.coffee' | garnish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugarshin-sandbox/tryflux"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^4.0.0",
+    "coffee-reactify": "^3.0.0",
+    "coffeeify": "^1.1.0",
+    "garnish": "^2.1.3",
+    "watchify": "^3.2.0"
+  },
+  "dependencies": {
+    "react": "^0.13.2"
+  }
+}

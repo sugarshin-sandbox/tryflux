@@ -1,0 +1,5 @@
+# tryflux
+
+```
+npm start
+```
