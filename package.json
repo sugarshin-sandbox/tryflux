@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "try flux",
   "scripts": {
-    "start": "budo main.cjsx:main.js -v --live -- -t coffee-reactify  --extension='.cjsx' --extension='.coffee' | garnish"
+    "start:c": "budo main.cjsx:main.js -v --live -- -t coffee-reactify  --extension='.cjsx' --extension='.coffee' | garnish",
+    "start:j": "budo main.jsx:main.js -v --live -- -t babelify  --extension='.jsx' | garnish"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   "author": "sugarshin",
   "license": "MIT",
   "devDependencies": {
+    "babelify": "^6.0.2",
     "budo": "^4.0.0",
     "coffee-reactify": "^3.0.0",
     "coffeeify": "^1.1.0",
